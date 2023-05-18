@@ -1,4 +1,5 @@
 #include <unistd.h>
+#include <string.h>
 
 /**
  * main - entry point
@@ -7,8 +8,6 @@
  */
 int main(void)
 {
-int x;
-char text[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
-write(x, &text, strlen(text));
+write(1,  "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", strlen( "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n"));
 return (1);
 }
