@@ -15,9 +15,10 @@ for (firstD = 0; firstD < 9; firstD++)
 {
 for (secondD = firstD + 1; secondD < 10; secondD++)
 {
-putchar((firstD % 10) + '0');
-putchar((secondD % 10) + '0');
-if (firstD != 8 && secondD != 9)
+putchar(firstD + '0');
+putchar(secondD + '0');
+if (firstD == 8 && secondD == 9)
+continue;
 putchar (',');
 putchar (' ');
 }
