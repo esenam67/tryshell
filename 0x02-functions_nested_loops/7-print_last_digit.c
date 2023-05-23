@@ -2,7 +2,7 @@
 
 /**
  * print_last_digit - prints the last digit of a number
- * lastD: int value
+ * @lastD: int value
  * Description: a function that prints the last digit of a number.
  *
  * Return: last digit of a number
