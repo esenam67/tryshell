@@ -14,8 +14,6 @@ int lastDresult;
 if (lastD < 0)
 lastD = -lastD;
 lastDresult = lastD % 10;
-_putchar((lastDresult % 10) + '0');
+_putchar(lastDresult + '0');
 return (lastDresult);
-_putchar('\n');
-
 }
