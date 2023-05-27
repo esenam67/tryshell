@@ -15,5 +15,5 @@ if (lastD < 0)
 lastD = -lastD;
 lastDresult = lastD % 10;
 _putchar((lastDresult % 10) + '0');
-return (lastDresult);
+return (lastDresult % 10);
 }
