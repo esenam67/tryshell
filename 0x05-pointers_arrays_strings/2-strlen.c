@@ -5,7 +5,7 @@
  * @s: pointer to a char
  * Description:  a function that returns the length of a string.
  *
- * Return: nothing
+ * Return: length
  */
 
 int _strlen(char *s)
