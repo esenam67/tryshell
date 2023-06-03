@@ -6,7 +6,7 @@
  * @src: pointer to a char
  * Description:  a function that concatenates two strings
  *
- * Return: a char
+ * Return: dest
  */
 
 char *_strcat(char *dest, char *src)
