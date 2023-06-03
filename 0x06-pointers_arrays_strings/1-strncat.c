@@ -17,12 +17,12 @@ int x = 0, y;
 while (dest[x] != '\0')
 x++;
 
-for (y = 0; y < n && src[y] != '\0'; y++)
+while (y < n && src[y] != '\0')
 {
 dest[x] = src[y];
 x++;
 y++;
 }
+dest[x] = '\0';
 return (dest);
-
 }
