@@ -3,10 +3,13 @@
 #include <stdarg.h>
 
 /**
- * print_strings - a function that prints strings, followed by a new line
+ * print_strings - check func
  * @separator: separator
  * @n: numbers of arg
- * Return:
+ * Description: a function that prints strings, followed by a new
+ * line.
+ *
+ * Return: nothing
  */
 
 void print_strings(const char *separator, const unsigned int n, ...)

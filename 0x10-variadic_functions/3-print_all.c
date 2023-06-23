@@ -4,8 +4,10 @@
 #include <stdio.h>
 
 /**
- * print_all - A function prints anyting.
+ * print_all - check func
  * @format: A list of type of arguments passed to the function.
+ * Description: a function that prints anything.
+ *
  * Return: Nothing
  */
 
