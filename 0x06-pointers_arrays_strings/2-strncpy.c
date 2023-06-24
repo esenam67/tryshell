@@ -4,7 +4,7 @@
 * *_strncpy - check code
 * @dest: pointer to char
 * @src: pointer to char
-* @n: int
+* @n:  The number of characters to be copied from source.
 * Description: a function that concatenates two strings.
 *
 * Return: nothing
@@ -16,6 +16,11 @@ int i = 0;
 while (i < n && src[i] != '\0')
 {
 dest[i] = src[i];
+i++;
+}
+while (i < n)
+{
+dest[i] = '\0';
 i++;
 }
 return (dest);
