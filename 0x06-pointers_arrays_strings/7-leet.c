@@ -24,5 +24,5 @@ str[i] = s2[x];
 }
 }
 
-return(str);
+return (str);
 }
