@@ -6,7 +6,7 @@
  * Description: a function that prints a string,
  * followed by a new line.
  *
- * Return: 0
+ * Return: nothing
  */
 
 void _puts_recursion(char *s)
