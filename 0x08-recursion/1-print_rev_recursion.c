@@ -5,7 +5,7 @@
  * @s: pointer to a char
  * Description: a function that prints a string in reverse.
  *
- * Return: 0
+ * Return: nothing
  */
 
 void _print_rev_recursion(char *s)
